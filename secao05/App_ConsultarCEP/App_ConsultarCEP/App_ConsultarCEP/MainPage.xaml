@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App_ConsultarCEP"
+             x:Class="App_ConsultarCEP.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        <Image x:Name="LOGO" Source="logoCorreios.png" />
+        <Entry x:Name="CEP"  Placeholder="Enter CEP code" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF"/>
+        <Button x:Name="BOTAO" Text="CEP Search > >" TextColor="#FFFFFF" BackgroundColor="#00416B"/>
+        <!-- Place new controls here -->
+    	<Label x:Name="RESULTADO" Text="[Welcome to CEP Lookup]" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
