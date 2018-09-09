@@ -1,2 +1,2 @@
 # xamarinforms2018_000
-Xamarin Project Course - by Elias Ribeiro-udemy.com
+Xamarin Project Course - I have learned whith Elias Ribeiro-udemy.com
